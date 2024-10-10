@@ -1,0 +1,79 @@
+:root{
+    --linkedinColor: #0077b5;
+    --githubColor: black;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #CAD5E2;
+}
+.container {
+    width: 50vw;
+    margin: 0 auto;
+    margin-top: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+.fab {
+    border: 1px solid;
+    padding: 30px;
+    font-size: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.fab:hover {
+    border: none;
+    animation: grow 1s infinite alternate ease-in-out
+}
+.linkedin:hover {
+    background-color: var(--linkedinColor);
+    border-radius: 50%;
+    color: #fff;
+    box-shadow: 0 0 50px var(--linkedinColor);
+}
+.github:hover {
+    background-color: var(--githubColor);
+    border-radius: 50%;
+    color: #fff;
+    box-shadow: 0 0 50px var(--githubColor);
+}
+
+@keyframes grow {
+    from {
+        transform: scale(1);
+        font-size: 30px;
+    }
+    to {
+        transform: scale(1.5);
+        font-size: 50px;
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        margin: 0 auto;
+        display: grid;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .fab {
+        border: 1px solid;
+        padding: 30px;
+        font-size: 30px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    .fab:hover {
+        border: none;
+        animation: grow 1s infinite alternate ease-in-out
+    }
+    .linkedin, .github {
+        margin-top: 20%;
+    }
+}
