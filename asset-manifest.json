@@ -1,17 +1,15 @@
 {
   "files": {
-    "main.css": "/santosh-portfolio/static/css/main.8d7d1770.css",
-    "main.js": "/santosh-portfolio/static/js/main.4f415b6e.js",
+    "main.css": "/santosh-portfolio/static/css/main.3fe6aef8.css",
+    "main.js": "/santosh-portfolio/static/js/main.a50f1ea7.js",
     "static/media/Formal.png": "/santosh-portfolio/static/media/Formal.392b5899d62bde66b2f7.png",
     "static/media/icon.png": "/santosh-portfolio/static/media/icon.a74cfcbecf7d9d9ec3fe.png",
-    "static/media/fraction.cjs": "/santosh-portfolio/static/media/fraction.7992481f3d8339b77604.cjs",
     "index.html": "/santosh-portfolio/index.html",
-    "static/media/index.cjs": "/santosh-portfolio/static/media/index.cd351d7c31d0d3fccf96.cjs",
-    "main.8d7d1770.css.map": "/santosh-portfolio/static/css/main.8d7d1770.css.map",
-    "main.4f415b6e.js.map": "/santosh-portfolio/static/js/main.4f415b6e.js.map"
+    "main.3fe6aef8.css.map": "/santosh-portfolio/static/css/main.3fe6aef8.css.map",
+    "main.a50f1ea7.js.map": "/santosh-portfolio/static/js/main.a50f1ea7.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d7d1770.css",
-    "static/js/main.4f415b6e.js"
+    "static/css/main.3fe6aef8.css",
+    "static/js/main.a50f1ea7.js"
   ]
 }
